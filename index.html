@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     <title> Juventudes | San Lorenzo </title>
+    
 </head>
     <body>
         <header> <!--ENCABEZADO DE LA PAGINA-->
-            <nav> <!--BARRA DE NAVEGACION-->
+            <nav class="navegador"> <!--BARRA DE NAVEGACION-->
                 <a href="./index.html"><img src="./img/Juv negro.png" alt="" width="100px"></a>
-                <ul>
+                <ul class="menu">
                     <li><a href="./index.html">Inicio</a></li>
                     <li><a href="./pages/nosotros.html">Nosotros</a></li>
                     <li><a href="./pages/eventos.html">Eventos</a></li>
@@ -27,21 +29,23 @@
             </section>
             <section class="galeriaop">
                 <h2>Chusmea un poco</h2>
-                <div> 
+                <div>
                     <img src="./img/Imagen de WhatsApp 2023-11-28 a las 11.45.02_1e6f24ea.jpg" alt="" width="250px">
                     <img src="./img/Educacion financiera.jpg" alt="" width="250px">
                     <img src="./img/Imagen de WhatsApp 2023-11-28 a las 11.45.02_5a9b99f5.jpg" alt="" width="250px">
-                </div>
-                <div>
                     <img src="./img/Imagen de WhatsApp 2023-11-28 a las 11.45.02_65060b6f.jpg" alt="" width="250px">
                     <img src="./img/Imagen de WhatsApp 2023-11-28 a las 11.45.02_df122272.jpg" alt="" width="250px">
                     <img src="./img/Imagen de WhatsApp 2023-11-28 a las 11.45.02_65060b6f.jpg" alt="" width="250px">
                 </div>
             </section>
         </main>
-        <footer>
-            <h2>Juventudes San Lorenzo</h2>
-            <section class="redes"> <!--REDES SOCIALES-->
+        <footer>            
+            <section class="logos"> <!--LOGOS INSTITUCIONALES-->
+                <img id="juv" src="./img/juv-logob.png" alt="">
+                <img src="./img/cul-logob.png" alt="">
+                <img src="./img/muni-logobp.png" alt="">            
+            </section>
+            <section class="redes"> <!--REDES SOCIALES-->   
                 <a href="https://www.instagram.com/juventudes_sanlorenzo/"><img src="./img/logotipo-de-instagram.png" alt=""></a>
                 <a href="https://api.whatsapp.com/send/?phone=5403412293261&text&type=phone_number&app_absent=0"><img src="./img/whatsapp-logo.png" alt=""></a>
                 <a href="https://www.facebook.com/coord.juventudes.SL"><img src="./img/face-logo.png" alt=""></a>
@@ -49,11 +53,7 @@
                 <a href="https://www.tiktok.com/@juventudes.sl"><img src="./img/tiktok-logo.png" alt=""></a>
                 <a href="https://www.twitch.tv/juventudes_sanlorenzo"><img src="./img/twitch-logo.png" alt=""></a>
             </section>
-            <section class="logos"> <!--LOGOS INSTITUCIONALES-->
-                <img id="juv" src="./img/juv-logob.png" alt="">
-                <img src="./img/cul-logob.png" alt="">
-                <img src="./img/muni-logobp.png" alt="">
-            </section>
         </footer>
+
     </body>
 </html>
