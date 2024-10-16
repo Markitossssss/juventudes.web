@@ -235,3 +235,110 @@ main iframe{
 }
 
 
+/*TODO------------------------------------------------------------MEDIAQUERYS INDEXX-----------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+    .hero {
+        height: 60vh;
+        background-size: cover;
+    }
+    .galeriaop div img {
+        width: 300px;
+        height: 300px;
+    }
+    .eventos, .actividades {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
+    .galeriaop div img {
+        width: 250px;
+        height: 250px;
+    }
+    .eventos, .actividades {
+        grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero {
+        height: 40vh;
+    }
+    .galeriaop div img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .galeriaop div img {
+        width: 150px;
+        height: 150px;
+    }
+    .eventos img, .actividades img {
+        width: 150px;
+        height: 75px;
+    }
+}
+/*TODO------------------------------------------------------------MEDIAQUERYS NOSOTROS-----------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    .nos {
+        font-size: 30px; 
+    }
+
+    .desc-nos {
+        font-size: 20px; 
+    }
+
+    .foto1 img, .foto2 img, .foto3 img {
+        max-width: 500px; 
+    }
+
+    .foto1 p, .foto2 p, .foto3 p {
+        font-size: 16px; 
+    }
+}
+
+/* Móviles y pantallas pequeñas */
+@media screen and (max-width: 500px) {
+    .nos {
+        font-size: 24px; 
+    }
+
+    .desc-nos {
+        font-size: 18px; 
+    }
+
+    .foto1 img, .foto2 img, .foto3 img {
+        max-width: 100%; 
+    }
+
+    .foto1 p, .foto2 p, .foto3 p {
+        font-size: 14px; 
+    }
+
+    .logos img {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .redes img {
+        width: 25px; 
+        height: 25px;
+    }
+
+    footer {
+        flex-direction: column; /* Organiza el footer en una sola columna en pantallas pequeñas */
+        align-items: center;
+        text-align: center;
+    }
+}
